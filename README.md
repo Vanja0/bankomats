@@ -1,0 +1,4 @@
+bankomats
+=========
+
+simple project
