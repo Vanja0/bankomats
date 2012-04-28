@@ -15,6 +15,7 @@
 		3123687A154C97010027FA38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31236879154C97010027FA38 /* AppDelegate.m */; };
 		3123687D154C97010027FA38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3123687B154C97010027FA38 /* MainStoryboard.storyboard */; };
 		31236880154C97010027FA38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3123687F154C97010027FA38 /* ViewController.m */; };
+		31236888154C98660027FA38 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31236887154C98660027FA38 /* CustomTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		3123687C154C97010027FA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3123687E154C97010027FA38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3123687F154C97010027FA38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31236886154C98660027FA38 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		31236887154C98660027FA38 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,8 @@
 		3123686F154C97010027FA38 /* iBankMate */ = {
 			isa = PBXGroup;
 			children = (
-				31236878154C97010027FA38 /* AppDelegate.h */,
-				31236879154C97010027FA38 /* AppDelegate.m */,
+				31236889154C987A0027FA38 /* CustomViewControllers */,
 				3123687B154C97010027FA38 /* MainStoryboard.storyboard */,
-				3123687E154C97010027FA38 /* ViewController.h */,
-				3123687F154C97010027FA38 /* ViewController.m */,
 				31236870154C97010027FA38 /* Supporting Files */,
 			);
 			path = iBankMate;
@@ -90,12 +90,25 @@
 		31236870154C97010027FA38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31236878154C97010027FA38 /* AppDelegate.h */,
+				31236879154C97010027FA38 /* AppDelegate.m */,
 				31236871154C97010027FA38 /* iBankMate-Info.plist */,
 				31236872154C97010027FA38 /* InfoPlist.strings */,
 				31236875154C97010027FA38 /* main.m */,
 				31236877154C97010027FA38 /* iBankMate-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31236889154C987A0027FA38 /* CustomViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31236886154C98660027FA38 /* CustomTabBarController.h */,
+				31236887154C98660027FA38 /* CustomTabBarController.m */,
+				3123687E154C97010027FA38 /* ViewController.h */,
+				3123687F154C97010027FA38 /* ViewController.m */,
+			);
+			name = CustomViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +176,7 @@
 				31236876154C97010027FA38 /* main.m in Sources */,
 				3123687A154C97010027FA38 /* AppDelegate.m in Sources */,
 				31236880154C97010027FA38 /* ViewController.m in Sources */,
+				31236888154C98660027FA38 /* CustomTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
